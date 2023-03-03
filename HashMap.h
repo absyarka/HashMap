@@ -1,3 +1,4 @@
+#include <stdexcept>
 #include <vector>
 
 template<class KeyType, class ValueType, class Hash = std::hash<KeyType>>
